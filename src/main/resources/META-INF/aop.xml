@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aspectj>
     <aspects>
-        <include within="ru.yandex.qatools.allure..*" />
+        <!--<include within="ru.yandex.qatools.allure..*" />-->
+        <include within="test.java.REST..*"/>
     </aspects>
 </aspectj>
